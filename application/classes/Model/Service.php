@@ -45,4 +45,26 @@ class Service_Model extends Model
         }
 
     }
+
+    /**
+     * function getLatestMessages
+     * @param int $id
+     * @return  array
+     */
+    public function getMessagesRelativelyId($id)
+    {
+
+        $obj = ORM::factory('messages');
+        $msgs = $obj->getMessagesRelativelyId($id);
+
+        $msgs_arr = array();
+        foreach ($msgs as $item) {
+
+            $msgs_arr[] = Model_Messages::_toArray($item);
+
+        }
+
+
+        return $msgs_arr;
+    }
 }
