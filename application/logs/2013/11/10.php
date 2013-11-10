@@ -306,3 +306,61 @@
 2013-11-10 09:50:26 --- CRITICAL: ErrorException [ 1 ]: Cannot call constructor ~ APPPATH\classes\Model\Service.php [ 22 ] in file:line
 2013-11-10 09:50:26 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
 #1 {main} in file:line
+2013-11-10 10:32:37 --- CRITICAL: ErrorException [ 1 ]: Class 'Database' not found ~ MODPATH\orm\classes\Kohana\ORM.php [ 320 ] in file:line
+2013-11-10 10:32:37 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2013-11-10 10:33:19 --- CRITICAL: ErrorException [ 1 ]: Class 'Database' not found ~ MODPATH\orm\classes\Kohana\ORM.php [ 320 ] in file:line
+2013-11-10 10:33:19 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2013-11-10 10:35:58 --- CRITICAL: ErrorException [ 1 ]: Class 'Database' not found ~ MODPATH\orm\classes\Kohana\ORM.php [ 320 ] in file:line
+2013-11-10 10:35:58 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2013-11-10 10:36:28 --- CRITICAL: ErrorException [ 1 ]: Class 'Database' not found ~ APPPATH\classes\Controller\Index.php [ 13 ] in file:line
+2013-11-10 10:36:28 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2013-11-10 10:47:22 --- CRITICAL: Kohana_Exception [ 0 ]: The key property does not exist in the Model_Messages class ~ MODPATH\orm\classes\Kohana\ORM.php [ 687 ] in C:\xampp\htdocs\kohana.test\modules\orm\classes\Kohana\ORM.php:603
+2013-11-10 10:47:22 --- DEBUG: #0 C:\xampp\htdocs\kohana.test\modules\orm\classes\Kohana\ORM.php(603): Kohana_ORM->get('key')
+#1 C:\xampp\htdocs\kohana.test\modules\database\classes\Kohana\Database\Result.php(157): Kohana_ORM->__get('key')
+#2 C:\xampp\htdocs\kohana.test\application\classes\Controller\Index.php(16): Kohana_Database_Result->as_array('key', 'item')
+#3 C:\xampp\htdocs\kohana.test\system\classes\Kohana\Controller.php(84): Controller_Index->action_index()
+#4 [internal function]: Kohana_Controller->execute()
+#5 C:\xampp\htdocs\kohana.test\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Index))
+#6 C:\xampp\htdocs\kohana.test\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 C:\xampp\htdocs\kohana.test\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#8 C:\xampp\htdocs\kohana.test\index.php(118): Kohana_Request->execute()
+#9 {main} in C:\xampp\htdocs\kohana.test\modules\orm\classes\Kohana\ORM.php:603
+2013-11-10 10:47:38 --- CRITICAL: Kohana_Exception [ 0 ]: The name property does not exist in the Model_Messages class ~ MODPATH\orm\classes\Kohana\ORM.php [ 687 ] in C:\xampp\htdocs\kohana.test\modules\orm\classes\Kohana\ORM.php:603
+2013-11-10 10:47:38 --- DEBUG: #0 C:\xampp\htdocs\kohana.test\modules\orm\classes\Kohana\ORM.php(603): Kohana_ORM->get('name')
+#1 C:\xampp\htdocs\kohana.test\modules\database\classes\Kohana\Database\Result.php(157): Kohana_ORM->__get('name')
+#2 C:\xampp\htdocs\kohana.test\application\classes\Controller\Index.php(16): Kohana_Database_Result->as_array('id', 'name')
+#3 C:\xampp\htdocs\kohana.test\system\classes\Kohana\Controller.php(84): Controller_Index->action_index()
+#4 [internal function]: Kohana_Controller->execute()
+#5 C:\xampp\htdocs\kohana.test\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Index))
+#6 C:\xampp\htdocs\kohana.test\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 C:\xampp\htdocs\kohana.test\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#8 C:\xampp\htdocs\kohana.test\index.php(118): Kohana_Request->execute()
+#9 {main} in C:\xampp\htdocs\kohana.test\modules\orm\classes\Kohana\ORM.php:603
+2013-11-10 10:48:02 --- CRITICAL: Kohana_Exception [ 0 ]: The username, text property does not exist in the Model_Messages class ~ MODPATH\orm\classes\Kohana\ORM.php [ 687 ] in C:\xampp\htdocs\kohana.test\modules\orm\classes\Kohana\ORM.php:603
+2013-11-10 10:48:02 --- DEBUG: #0 C:\xampp\htdocs\kohana.test\modules\orm\classes\Kohana\ORM.php(603): Kohana_ORM->get('username, text')
+#1 C:\xampp\htdocs\kohana.test\modules\database\classes\Kohana\Database\Result.php(157): Kohana_ORM->__get('username, text')
+#2 C:\xampp\htdocs\kohana.test\application\classes\Controller\Index.php(16): Kohana_Database_Result->as_array('id', 'username, text')
+#3 C:\xampp\htdocs\kohana.test\system\classes\Kohana\Controller.php(84): Controller_Index->action_index()
+#4 [internal function]: Kohana_Controller->execute()
+#5 C:\xampp\htdocs\kohana.test\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Index))
+#6 C:\xampp\htdocs\kohana.test\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 C:\xampp\htdocs\kohana.test\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#8 C:\xampp\htdocs\kohana.test\index.php(118): Kohana_Request->execute()
+#9 {main} in C:\xampp\htdocs\kohana.test\modules\orm\classes\Kohana\ORM.php:603
+2013-11-10 10:48:29 --- CRITICAL: ErrorException [ 8 ]: Array to string conversion ~ MODPATH\database\classes\Kohana\Database\Result.php [ 157 ] in C:\xampp\htdocs\kohana.test\modules\database\classes\Kohana\Database\Result.php:157
+2013-11-10 10:48:29 --- DEBUG: #0 C:\xampp\htdocs\kohana.test\modules\database\classes\Kohana\Database\Result.php(157): Kohana_Core::error_handler(8, 'Array to string...', 'C:\xampp\htdocs...', 157, Array)
+#1 C:\xampp\htdocs\kohana.test\application\classes\Controller\Index.php(16): Kohana_Database_Result->as_array('id', Array)
+#2 C:\xampp\htdocs\kohana.test\system\classes\Kohana\Controller.php(84): Controller_Index->action_index()
+#3 [internal function]: Kohana_Controller->execute()
+#4 C:\xampp\htdocs\kohana.test\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Index))
+#5 C:\xampp\htdocs\kohana.test\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#6 C:\xampp\htdocs\kohana.test\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#7 C:\xampp\htdocs\kohana.test\index.php(118): Kohana_Request->execute()
+#8 {main} in C:\xampp\htdocs\kohana.test\modules\database\classes\Kohana\Database\Result.php:157
+2013-11-10 10:56:22 --- CRITICAL: ErrorException [ 1 ]: Call to a member function _toArray() on a non-object ~ APPPATH\classes\Controller\Index.php [ 14 ] in file:line
+2013-11-10 10:56:22 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
