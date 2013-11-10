@@ -1,0 +1,167 @@
+<?php defined('SYSPATH') OR die('No direct script access.'); ?>
+
+2013-11-09 17:48:27 --- CRITICAL: ErrorException [ 2 ]: include(): Filename cannot be empty ~ APPPATH\classes\Controller\Index.php [ 4 ] in C:\xampp\htdocs\kohana.test\application\classes\Controller\Index.php:4
+2013-11-09 17:48:27 --- DEBUG: #0 C:\xampp\htdocs\kohana.test\application\classes\Controller\Index.php(4): Kohana_Core::error_handler(2, 'include(): File...', 'C:\xampp\htdocs...', 4, Array)
+#1 C:\xampp\htdocs\kohana.test\application\classes\Controller\Index.php(4): include()
+#2 C:\xampp\htdocs\kohana.test\system\classes\Kohana\Core.php(511): require('C:\xampp\htdocs...')
+#3 [internal function]: Kohana_Core::auto_load('Controller_Inde...')
+#4 [internal function]: spl_autoload_call('Controller_Inde...')
+#5 C:\xampp\htdocs\kohana.test\system\classes\Kohana\Request\Client\Internal.php(74): class_exists('Controller_Inde...')
+#6 C:\xampp\htdocs\kohana.test\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 C:\xampp\htdocs\kohana.test\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#8 C:\xampp\htdocs\kohana.test\index.php(118): Kohana_Request->execute()
+#9 {main} in C:\xampp\htdocs\kohana.test\application\classes\Controller\Index.php:4
+2013-11-09 17:49:25 --- CRITICAL: ErrorException [ 2 ]: include(): Filename cannot be empty ~ APPPATH\classes\Controller\Index.php [ 4 ] in C:\xampp\htdocs\kohana.test\application\classes\Controller\Index.php:4
+2013-11-09 17:49:25 --- DEBUG: #0 C:\xampp\htdocs\kohana.test\application\classes\Controller\Index.php(4): Kohana_Core::error_handler(2, 'include(): File...', 'C:\xampp\htdocs...', 4, Array)
+#1 C:\xampp\htdocs\kohana.test\application\classes\Controller\Index.php(4): include()
+#2 C:\xampp\htdocs\kohana.test\system\classes\Kohana\Core.php(511): require('C:\xampp\htdocs...')
+#3 [internal function]: Kohana_Core::auto_load('Controller_Inde...')
+#4 [internal function]: spl_autoload_call('Controller_Inde...')
+#5 C:\xampp\htdocs\kohana.test\system\classes\Kohana\Request\Client\Internal.php(74): class_exists('Controller_Inde...')
+#6 C:\xampp\htdocs\kohana.test\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 C:\xampp\htdocs\kohana.test\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#8 C:\xampp\htdocs\kohana.test\index.php(118): Kohana_Request->execute()
+#9 {main} in C:\xampp\htdocs\kohana.test\application\classes\Controller\Index.php:4
+2013-11-09 17:49:27 --- CRITICAL: ErrorException [ 2 ]: include(): Filename cannot be empty ~ APPPATH\classes\Controller\Index.php [ 4 ] in C:\xampp\htdocs\kohana.test\application\classes\Controller\Index.php:4
+2013-11-09 17:49:27 --- DEBUG: #0 C:\xampp\htdocs\kohana.test\application\classes\Controller\Index.php(4): Kohana_Core::error_handler(2, 'include(): File...', 'C:\xampp\htdocs...', 4, Array)
+#1 C:\xampp\htdocs\kohana.test\application\classes\Controller\Index.php(4): include()
+#2 C:\xampp\htdocs\kohana.test\system\classes\Kohana\Core.php(511): require('C:\xampp\htdocs...')
+#3 [internal function]: Kohana_Core::auto_load('Controller_Inde...')
+#4 [internal function]: spl_autoload_call('Controller_Inde...')
+#5 C:\xampp\htdocs\kohana.test\system\classes\Kohana\Request\Client\Internal.php(74): class_exists('Controller_Inde...')
+#6 C:\xampp\htdocs\kohana.test\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 C:\xampp\htdocs\kohana.test\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#8 C:\xampp\htdocs\kohana.test\index.php(118): Kohana_Request->execute()
+#9 {main} in C:\xampp\htdocs\kohana.test\application\classes\Controller\Index.php:4
+2013-11-09 17:49:27 --- CRITICAL: ErrorException [ 2 ]: include(): Filename cannot be empty ~ APPPATH\classes\Controller\Index.php [ 4 ] in C:\xampp\htdocs\kohana.test\application\classes\Controller\Index.php:4
+2013-11-09 17:49:27 --- DEBUG: #0 C:\xampp\htdocs\kohana.test\application\classes\Controller\Index.php(4): Kohana_Core::error_handler(2, 'include(): File...', 'C:\xampp\htdocs...', 4, Array)
+#1 C:\xampp\htdocs\kohana.test\application\classes\Controller\Index.php(4): include()
+#2 C:\xampp\htdocs\kohana.test\system\classes\Kohana\Core.php(511): require('C:\xampp\htdocs...')
+#3 [internal function]: Kohana_Core::auto_load('Controller_Inde...')
+#4 [internal function]: spl_autoload_call('Controller_Inde...')
+#5 C:\xampp\htdocs\kohana.test\system\classes\Kohana\Request\Client\Internal.php(74): class_exists('Controller_Inde...')
+#6 C:\xampp\htdocs\kohana.test\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 C:\xampp\htdocs\kohana.test\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#8 C:\xampp\htdocs\kohana.test\index.php(118): Kohana_Request->execute()
+#9 {main} in C:\xampp\htdocs\kohana.test\application\classes\Controller\Index.php:4
+2013-11-09 17:58:36 --- CRITICAL: ErrorException [ 2 ]: include(/vendor/Zend/Soap/AutoDiscover.php): failed to open stream: No such file or directory ~ APPPATH\classes\Controller\Index.php [ 4 ] in C:\xampp\htdocs\kohana.test\application\classes\Controller\Index.php:4
+2013-11-09 17:58:36 --- DEBUG: #0 C:\xampp\htdocs\kohana.test\application\classes\Controller\Index.php(4): Kohana_Core::error_handler(2, 'include(/vendor...', 'C:\xampp\htdocs...', 4, Array)
+#1 C:\xampp\htdocs\kohana.test\application\classes\Controller\Index.php(4): include()
+#2 C:\xampp\htdocs\kohana.test\system\classes\Kohana\Core.php(511): require('C:\xampp\htdocs...')
+#3 [internal function]: Kohana_Core::auto_load('Controller_Inde...')
+#4 [internal function]: spl_autoload_call('Controller_Inde...')
+#5 C:\xampp\htdocs\kohana.test\system\classes\Kohana\Request\Client\Internal.php(74): class_exists('Controller_Inde...')
+#6 C:\xampp\htdocs\kohana.test\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 C:\xampp\htdocs\kohana.test\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#8 C:\xampp\htdocs\kohana.test\index.php(118): Kohana_Request->execute()
+#9 {main} in C:\xampp\htdocs\kohana.test\application\classes\Controller\Index.php:4
+2013-11-09 17:58:56 --- CRITICAL: ErrorException [ 2 ]: include(vendor/Zend/Soap/AutoDiscover.php): failed to open stream: No such file or directory ~ APPPATH\classes\Controller\Index.php [ 4 ] in C:\xampp\htdocs\kohana.test\application\classes\Controller\Index.php:4
+2013-11-09 17:58:56 --- DEBUG: #0 C:\xampp\htdocs\kohana.test\application\classes\Controller\Index.php(4): Kohana_Core::error_handler(2, 'include(vendor/...', 'C:\xampp\htdocs...', 4, Array)
+#1 C:\xampp\htdocs\kohana.test\application\classes\Controller\Index.php(4): include()
+#2 C:\xampp\htdocs\kohana.test\system\classes\Kohana\Core.php(511): require('C:\xampp\htdocs...')
+#3 [internal function]: Kohana_Core::auto_load('Controller_Inde...')
+#4 [internal function]: spl_autoload_call('Controller_Inde...')
+#5 C:\xampp\htdocs\kohana.test\system\classes\Kohana\Request\Client\Internal.php(74): class_exists('Controller_Inde...')
+#6 C:\xampp\htdocs\kohana.test\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 C:\xampp\htdocs\kohana.test\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#8 C:\xampp\htdocs\kohana.test\index.php(118): Kohana_Request->execute()
+#9 {main} in C:\xampp\htdocs\kohana.test\application\classes\Controller\Index.php:4
+2013-11-09 17:58:57 --- CRITICAL: ErrorException [ 2 ]: include(vendor/Zend/Soap/AutoDiscover.php): failed to open stream: No such file or directory ~ APPPATH\classes\Controller\Index.php [ 4 ] in C:\xampp\htdocs\kohana.test\application\classes\Controller\Index.php:4
+2013-11-09 17:58:57 --- DEBUG: #0 C:\xampp\htdocs\kohana.test\application\classes\Controller\Index.php(4): Kohana_Core::error_handler(2, 'include(vendor/...', 'C:\xampp\htdocs...', 4, Array)
+#1 C:\xampp\htdocs\kohana.test\application\classes\Controller\Index.php(4): include()
+#2 C:\xampp\htdocs\kohana.test\system\classes\Kohana\Core.php(511): require('C:\xampp\htdocs...')
+#3 [internal function]: Kohana_Core::auto_load('Controller_Inde...')
+#4 [internal function]: spl_autoload_call('Controller_Inde...')
+#5 C:\xampp\htdocs\kohana.test\system\classes\Kohana\Request\Client\Internal.php(74): class_exists('Controller_Inde...')
+#6 C:\xampp\htdocs\kohana.test\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 C:\xampp\htdocs\kohana.test\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#8 C:\xampp\htdocs\kohana.test\index.php(118): Kohana_Request->execute()
+#9 {main} in C:\xampp\htdocs\kohana.test\application\classes\Controller\Index.php:4
+2013-11-09 17:58:57 --- CRITICAL: ErrorException [ 2 ]: include(vendor/Zend/Soap/AutoDiscover.php): failed to open stream: No such file or directory ~ APPPATH\classes\Controller\Index.php [ 4 ] in C:\xampp\htdocs\kohana.test\application\classes\Controller\Index.php:4
+2013-11-09 17:58:57 --- DEBUG: #0 C:\xampp\htdocs\kohana.test\application\classes\Controller\Index.php(4): Kohana_Core::error_handler(2, 'include(vendor/...', 'C:\xampp\htdocs...', 4, Array)
+#1 C:\xampp\htdocs\kohana.test\application\classes\Controller\Index.php(4): include()
+#2 C:\xampp\htdocs\kohana.test\system\classes\Kohana\Core.php(511): require('C:\xampp\htdocs...')
+#3 [internal function]: Kohana_Core::auto_load('Controller_Inde...')
+#4 [internal function]: spl_autoload_call('Controller_Inde...')
+#5 C:\xampp\htdocs\kohana.test\system\classes\Kohana\Request\Client\Internal.php(74): class_exists('Controller_Inde...')
+#6 C:\xampp\htdocs\kohana.test\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 C:\xampp\htdocs\kohana.test\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#8 C:\xampp\htdocs\kohana.test\index.php(118): Kohana_Request->execute()
+#9 {main} in C:\xampp\htdocs\kohana.test\application\classes\Controller\Index.php:4
+2013-11-09 17:58:58 --- CRITICAL: ErrorException [ 2 ]: include(vendor/Zend/Soap/AutoDiscover.php): failed to open stream: No such file or directory ~ APPPATH\classes\Controller\Index.php [ 4 ] in C:\xampp\htdocs\kohana.test\application\classes\Controller\Index.php:4
+2013-11-09 17:58:58 --- DEBUG: #0 C:\xampp\htdocs\kohana.test\application\classes\Controller\Index.php(4): Kohana_Core::error_handler(2, 'include(vendor/...', 'C:\xampp\htdocs...', 4, Array)
+#1 C:\xampp\htdocs\kohana.test\application\classes\Controller\Index.php(4): include()
+#2 C:\xampp\htdocs\kohana.test\system\classes\Kohana\Core.php(511): require('C:\xampp\htdocs...')
+#3 [internal function]: Kohana_Core::auto_load('Controller_Inde...')
+#4 [internal function]: spl_autoload_call('Controller_Inde...')
+#5 C:\xampp\htdocs\kohana.test\system\classes\Kohana\Request\Client\Internal.php(74): class_exists('Controller_Inde...')
+#6 C:\xampp\htdocs\kohana.test\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 C:\xampp\htdocs\kohana.test\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#8 C:\xampp\htdocs\kohana.test\index.php(118): Kohana_Request->execute()
+#9 {main} in C:\xampp\htdocs\kohana.test\application\classes\Controller\Index.php:4
+2013-11-09 17:58:58 --- CRITICAL: ErrorException [ 2 ]: include(vendor/Zend/Soap/AutoDiscover.php): failed to open stream: No such file or directory ~ APPPATH\classes\Controller\Index.php [ 4 ] in C:\xampp\htdocs\kohana.test\application\classes\Controller\Index.php:4
+2013-11-09 17:58:58 --- DEBUG: #0 C:\xampp\htdocs\kohana.test\application\classes\Controller\Index.php(4): Kohana_Core::error_handler(2, 'include(vendor/...', 'C:\xampp\htdocs...', 4, Array)
+#1 C:\xampp\htdocs\kohana.test\application\classes\Controller\Index.php(4): include()
+#2 C:\xampp\htdocs\kohana.test\system\classes\Kohana\Core.php(511): require('C:\xampp\htdocs...')
+#3 [internal function]: Kohana_Core::auto_load('Controller_Inde...')
+#4 [internal function]: spl_autoload_call('Controller_Inde...')
+#5 C:\xampp\htdocs\kohana.test\system\classes\Kohana\Request\Client\Internal.php(74): class_exists('Controller_Inde...')
+#6 C:\xampp\htdocs\kohana.test\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 C:\xampp\htdocs\kohana.test\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#8 C:\xampp\htdocs\kohana.test\index.php(118): Kohana_Request->execute()
+#9 {main} in C:\xampp\htdocs\kohana.test\application\classes\Controller\Index.php:4
+2013-11-09 17:58:58 --- CRITICAL: ErrorException [ 2 ]: include(vendor/Zend/Soap/AutoDiscover.php): failed to open stream: No such file or directory ~ APPPATH\classes\Controller\Index.php [ 4 ] in C:\xampp\htdocs\kohana.test\application\classes\Controller\Index.php:4
+2013-11-09 17:58:58 --- DEBUG: #0 C:\xampp\htdocs\kohana.test\application\classes\Controller\Index.php(4): Kohana_Core::error_handler(2, 'include(vendor/...', 'C:\xampp\htdocs...', 4, Array)
+#1 C:\xampp\htdocs\kohana.test\application\classes\Controller\Index.php(4): include()
+#2 C:\xampp\htdocs\kohana.test\system\classes\Kohana\Core.php(511): require('C:\xampp\htdocs...')
+#3 [internal function]: Kohana_Core::auto_load('Controller_Inde...')
+#4 [internal function]: spl_autoload_call('Controller_Inde...')
+#5 C:\xampp\htdocs\kohana.test\system\classes\Kohana\Request\Client\Internal.php(74): class_exists('Controller_Inde...')
+#6 C:\xampp\htdocs\kohana.test\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 C:\xampp\htdocs\kohana.test\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#8 C:\xampp\htdocs\kohana.test\index.php(118): Kohana_Request->execute()
+#9 {main} in C:\xampp\htdocs\kohana.test\application\classes\Controller\Index.php:4
+2013-11-09 17:58:59 --- CRITICAL: ErrorException [ 2 ]: include(vendor/Zend/Soap/AutoDiscover.php): failed to open stream: No such file or directory ~ APPPATH\classes\Controller\Index.php [ 4 ] in C:\xampp\htdocs\kohana.test\application\classes\Controller\Index.php:4
+2013-11-09 17:58:59 --- DEBUG: #0 C:\xampp\htdocs\kohana.test\application\classes\Controller\Index.php(4): Kohana_Core::error_handler(2, 'include(vendor/...', 'C:\xampp\htdocs...', 4, Array)
+#1 C:\xampp\htdocs\kohana.test\application\classes\Controller\Index.php(4): include()
+#2 C:\xampp\htdocs\kohana.test\system\classes\Kohana\Core.php(511): require('C:\xampp\htdocs...')
+#3 [internal function]: Kohana_Core::auto_load('Controller_Inde...')
+#4 [internal function]: spl_autoload_call('Controller_Inde...')
+#5 C:\xampp\htdocs\kohana.test\system\classes\Kohana\Request\Client\Internal.php(74): class_exists('Controller_Inde...')
+#6 C:\xampp\htdocs\kohana.test\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 C:\xampp\htdocs\kohana.test\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#8 C:\xampp\htdocs\kohana.test\index.php(118): Kohana_Request->execute()
+#9 {main} in C:\xampp\htdocs\kohana.test\application\classes\Controller\Index.php:4
+2013-11-09 17:58:59 --- CRITICAL: ErrorException [ 2 ]: include(vendor/Zend/Soap/AutoDiscover.php): failed to open stream: No such file or directory ~ APPPATH\classes\Controller\Index.php [ 4 ] in C:\xampp\htdocs\kohana.test\application\classes\Controller\Index.php:4
+2013-11-09 17:58:59 --- DEBUG: #0 C:\xampp\htdocs\kohana.test\application\classes\Controller\Index.php(4): Kohana_Core::error_handler(2, 'include(vendor/...', 'C:\xampp\htdocs...', 4, Array)
+#1 C:\xampp\htdocs\kohana.test\application\classes\Controller\Index.php(4): include()
+#2 C:\xampp\htdocs\kohana.test\system\classes\Kohana\Core.php(511): require('C:\xampp\htdocs...')
+#3 [internal function]: Kohana_Core::auto_load('Controller_Inde...')
+#4 [internal function]: spl_autoload_call('Controller_Inde...')
+#5 C:\xampp\htdocs\kohana.test\system\classes\Kohana\Request\Client\Internal.php(74): class_exists('Controller_Inde...')
+#6 C:\xampp\htdocs\kohana.test\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 C:\xampp\htdocs\kohana.test\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#8 C:\xampp\htdocs\kohana.test\index.php(118): Kohana_Request->execute()
+#9 {main} in C:\xampp\htdocs\kohana.test\application\classes\Controller\Index.php:4
+2013-11-09 17:59:00 --- CRITICAL: ErrorException [ 2 ]: include(vendor/Zend/Soap/AutoDiscover.php): failed to open stream: No such file or directory ~ APPPATH\classes\Controller\Index.php [ 4 ] in C:\xampp\htdocs\kohana.test\application\classes\Controller\Index.php:4
+2013-11-09 17:59:00 --- DEBUG: #0 C:\xampp\htdocs\kohana.test\application\classes\Controller\Index.php(4): Kohana_Core::error_handler(2, 'include(vendor/...', 'C:\xampp\htdocs...', 4, Array)
+#1 C:\xampp\htdocs\kohana.test\application\classes\Controller\Index.php(4): include()
+#2 C:\xampp\htdocs\kohana.test\system\classes\Kohana\Core.php(511): require('C:\xampp\htdocs...')
+#3 [internal function]: Kohana_Core::auto_load('Controller_Inde...')
+#4 [internal function]: spl_autoload_call('Controller_Inde...')
+#5 C:\xampp\htdocs\kohana.test\system\classes\Kohana\Request\Client\Internal.php(74): class_exists('Controller_Inde...')
+#6 C:\xampp\htdocs\kohana.test\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 C:\xampp\htdocs\kohana.test\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#8 C:\xampp\htdocs\kohana.test\index.php(118): Kohana_Request->execute()
+#9 {main} in C:\xampp\htdocs\kohana.test\application\classes\Controller\Index.php:4
+2013-11-09 18:03:30 --- CRITICAL: ErrorException [ 2 ]: include(/vendor/Zend/Soap/AutoDiscover.php): failed to open stream: No such file or directory ~ APPPATH\classes\Controller\Index.php [ 4 ] in C:\xampp\htdocs\kohana.test\application\classes\Controller\Index.php:4
+2013-11-09 18:03:30 --- DEBUG: #0 C:\xampp\htdocs\kohana.test\application\classes\Controller\Index.php(4): Kohana_Core::error_handler(2, 'include(/vendor...', 'C:\xampp\htdocs...', 4, Array)
+#1 C:\xampp\htdocs\kohana.test\application\classes\Controller\Index.php(4): include()
+#2 C:\xampp\htdocs\kohana.test\system\classes\Kohana\Core.php(511): require('C:\xampp\htdocs...')
+#3 [internal function]: Kohana_Core::auto_load('Controller_Inde...')
+#4 [internal function]: spl_autoload_call('Controller_Inde...')
+#5 C:\xampp\htdocs\kohana.test\system\classes\Kohana\Request\Client\Internal.php(74): class_exists('Controller_Inde...')
+#6 C:\xampp\htdocs\kohana.test\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 C:\xampp\htdocs\kohana.test\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#8 C:\xampp\htdocs\kohana.test\index.php(118): Kohana_Request->execute()
+#9 {main} in C:\xampp\htdocs\kohana.test\application\classes\Controller\Index.php:4
