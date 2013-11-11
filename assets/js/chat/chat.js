@@ -1,4 +1,3 @@
-
 var host = 'local.test'; // Please, set your host, where service is it
 $(function () {
 
@@ -58,24 +57,6 @@ function parseMessages(SOAPResponse) {
     return all_records;
 }
 
-function proceedRequest(method, params) {
-    $.soap({
-        url: 'http://'+host+'/soap/service/',
-        method: method,
-
-        data: params,
-
-
-        success: function (soapResponse) {
-
-            return { 'done': true, 'data': soapResponse};
-
-        },
-        error: function (SOAPResponse) {
-            return {'done': false, 'data': SOAPResponse};
-        }
-    });
-}
 
 function addMessage(username, message) {
     $('#loading').show();
@@ -116,7 +97,7 @@ function init() {
             if (messages.length > 0) {
                 $('.message-items').html('');
                 $.each(messages, function (key, item) {
-                    $('.message-items').append("<div class='row message-item'> <div class='col-md-3'><b>" + item.username + "</b></div><div class='col-md-6'>" + item.message + "</div><div class='col-md-3'>" + item.datetime + "</div></div>");
+                    $('.message-items').append("<div class='row message-item'> <div class='col-md-3'><b>" + item.username + "</b></div><div class='col-md-6'>" + item.message + "</div><div class='col-md-3 label label-info'>" + item.datetime + "</div></div>");
                 });
 
             }
