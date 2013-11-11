@@ -73,7 +73,7 @@ function addMessage(username, message) {
         success: function (soapResponse) {
 
             init();
-            $('#name').val('');
+      
             $('#message').val('');
         },
         error: function (SOAPResponse) {
