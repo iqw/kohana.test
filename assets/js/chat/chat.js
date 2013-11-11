@@ -1,3 +1,5 @@
+
+var host = 'local.test'; // Please, set your host, where service is it
 $(function () {
 
     init();
@@ -58,7 +60,7 @@ function parseMessages(SOAPResponse) {
 
 function proceedRequest(method, params) {
     $.soap({
-        url: 'http://kohana.test/soap/service/',
+        url: 'http://'+host+'/soap/service/',
         method: method,
 
         data: params,
@@ -78,7 +80,7 @@ function proceedRequest(method, params) {
 function addMessage(username, message) {
     $('#loading').show();
     $.soap({
-        url: 'http://kohana.test/soap/service/',
+        url: 'http://'+host+'/soap/service/',
         method: 'addMessage',
 
         data: {
@@ -101,7 +103,7 @@ function addMessage(username, message) {
 function init() {
     $('#loading').show();
     $.soap({
-        url: 'http://kohana.test/soap/service/',
+        url: 'http://'+host+'/soap/service/',
         method: 'getLatestMessages',
 
         data: {},
