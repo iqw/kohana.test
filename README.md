@@ -16,3 +16,4 @@ Frontend -  Twitter Bootstrap 3, jQuery 1.10.2, jQuery.soap (уже устано
 !!!Важно!!!
 
 В папке application нужно создать папку cache, комититься она не хочет, без нее не работает.
+Так же в /application/config/database.php указать данные для коннекта к базе, и в /assets/js/chat/chat.js - прописать свой хост в переменную host
