@@ -5,7 +5,7 @@ ini_set('include_path', ini_get('include_path') . PATH_SEPARATOR . APPPATH . 've
 include Kohana::find_file('vendor', 'Zend/Soap/AutoDiscover');
 include Kohana::find_file('vendor', 'Zend/Soap/Server');
 
-include APPPATH . 'classes/Model/Service.php';
+include APPPATH . 'classes/Model/Service.php'; // Суровый костыль, знаю, но было времени, поэтому пришлось что-то решать
 
 class Controller_Soap extends Controller
 {
