@@ -6,7 +6,7 @@ MySQL >= 5.*
 Критические расширения PHP (которые могут быть не предустановлены):
 -SOAP
 
-Backend - Kohana 3.3 + Zend Soap AutoDiscover, Zend Soap Service (уже включены в проэкт)
+Backend - Kohana 3.3 + Zend Soap AutoDiscover, Zend Soap Service (уже включены в проект)
 Frontend -  Twitter Bootstrap 3, jQuery 1.10.2, jQuery.soap (уже установлены в папке ассетов)
 
 Для работы фреймворка нужен mod_rewrite.
